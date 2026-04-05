@@ -30,24 +30,31 @@ jobs:
 
       - name: Buscar cotações (PTAX)
         run: cd scripts && python fetch_moedas.py
+        continue-on-error: true
 
       - name: Buscar Selic
         run: cd scripts && python fetch_selic.py
+        continue-on-error: true
 
       - name: Buscar CDI
         run: cd scripts && python fetch_cdi.py
+        continue-on-error: true
 
       - name: Buscar IPCA
         run: cd scripts && python fetch_ipca.py
+        continue-on-error: true
 
       - name: Buscar IGP-M
         run: cd scripts && python fetch_igpm.py
+        continue-on-error: true
 
       - name: Buscar INPC
         run: cd scripts && python fetch_inpc.py
+        continue-on-error: true
 
       - name: Buscar Poupança
         run: cd scripts && python fetch_poupanca.py
+        continue-on-error: true
 
       - name: Commit dados atualizados
         run: |
