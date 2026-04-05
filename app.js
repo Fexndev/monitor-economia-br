@@ -211,7 +211,7 @@ const CUTOFF = '2024-01';
 const appState = {
     raw: {},
     monthly: {},
-    enabled: ['usd', 'selicMeta', 'ipca12m'],
+    enabled: ['usd'],
     chartInstance: null,
 };
 
