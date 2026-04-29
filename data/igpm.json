@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-28T21:58:05Z",
+  "last_updated": "2026-04-29T21:58:46Z",
   "source": "BCB/SGS-189",
   "current": {
-    "variacao": 0.52,
-    "acumulado_ano": 0.2,
-    "acumulado_12m": -1.82,
-    "mes_referencia": "2026-03"
+    "variacao": 2.73,
+    "acumulado_ano": 2.93,
+    "acumulado_12m": 0.62,
+    "mes_referencia": "2026-04"
   },
   "monthly": [
     {
@@ -307,6 +307,10 @@
     {
       "data": "2026-03",
       "variacao": 0.52
+    },
+    {
+      "data": "2026-04",
+      "variacao": 2.73
     }
   ],
   "acum_ano": [
@@ -609,6 +613,10 @@
     {
       "data": "2026-03",
       "valor": 0.2
+    },
+    {
+      "data": "2026-04",
+      "valor": 2.93
     }
   ],
   "acum_12m": [
@@ -867,6 +875,10 @@
     {
       "data": "2026-03",
       "valor": -1.82
+    },
+    {
+      "data": "2026-04",
+      "valor": 0.62
     }
   ]
 }
