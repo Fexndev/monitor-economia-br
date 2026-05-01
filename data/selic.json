@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-30T21:56:13Z",
+  "last_updated": "2026-05-01T21:52:56Z",
   "source": "BCB/SGS-432,11",
   "current": {
     "meta": 14.5,
     "efetiva": 0.0534,
-    "data": "2026-04"
+    "data": "2026-05"
   },
   "copom_decisions": [
     {
@@ -542,6 +542,10 @@
     },
     {
       "data": "2026-04",
+      "taxa": 14.5
+    },
+    {
+      "data": "2026-05",
       "taxa": 14.5
     }
   ],
